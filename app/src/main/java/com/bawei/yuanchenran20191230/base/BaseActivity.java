@@ -10,13 +10,13 @@ public abstract class BaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         int id = initlayoutId();
         setContentView(id);
-        initVier();
+        initView();
         initListener();
         initData();
     }
 
     protected abstract int initlayoutId();
-    protected abstract void initVier();
+    protected abstract void initView();
     protected abstract void initListener();
     protected abstract void initData();
 }

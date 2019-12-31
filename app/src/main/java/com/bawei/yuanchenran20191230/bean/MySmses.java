@@ -4,7 +4,7 @@ public class MySmses {
     private String from;
     private String content;
     private String time;
-    private String isread;
+    private int isread;
 
     public String getFrom() {
         return from;
@@ -18,7 +18,7 @@ public class MySmses {
         return time;
     }
 
-    public String getIsread() {
+    public int getIsread() {
         return isread;
     }
 }
